@@ -4,6 +4,8 @@ const ytdl = require("ytdl-core");
 const app = express();
 app.use(cors());
 
+app.listen(process.env.PORT || 3000)
+
 app.get("/", (req, res) => {
   res.send("welc0me to ytdl, use /info and /download")
 })
