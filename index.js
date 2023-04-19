@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("welcme to ytdl, use /info and /download")
+  res.send("welc0me to ytdl, use /info and /download")
 })
 
 app.get("/info", async (req, res) => {
